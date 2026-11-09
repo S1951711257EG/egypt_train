@@ -23,6 +23,7 @@ provided) and the **official ENR ticketing API** (`obs.enr.gov.eg`, no authentic
 | `enr_obs_openapi_spec.json` | The **complete OpenAPI spec** of the ENR API (1,451 endpoints). | — |
 | `tools/fetch_enr_data.py` | Script to refresh stations / timetable / searches for any date. | — |
 | `tools/geocode_stations_from_osm.py` | Adds lat/lon to stations by matching names against OpenStreetMap. | — |
+| **`ADVANCED_B2G_PROPOSAL.md`** | **Advanced B2G proposal v2 — "RailGuard Egypt"**: national digital twin, crossing exposure matrix (6,805 crossings × 798 trains/day), stalled-train/headway CEP, edge safety grid, emergency-response command, on-prem Arabic LLM assistant, full recommended tech stack and a 90-day pilot plan for Cairo–Giza–Al-Ayyat–Beni Suef. | Markdown |
 | `docs/` | Full data-extraction report (PDF + Word) and the B2G product proposal for ENR (accident prevention & emergency response). | PDF + Word |
 
 ### Timetable time semantics (validated against the live API)
