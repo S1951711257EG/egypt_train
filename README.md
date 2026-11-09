@@ -23,7 +23,7 @@ provided) and the **official ENR ticketing API** (`obs.enr.gov.eg`, no authentic
 | `enr_obs_openapi_spec.json` | The **complete OpenAPI spec** of the ENR API (1,451 endpoints). | — |
 | `tools/fetch_enr_data.py` | Script to refresh stations / timetable / searches for any date. | — |
 | `tools/geocode_stations_from_osm.py` | Adds lat/lon to stations by matching names against OpenStreetMap. | — |
-| `docs/` | Full data-extraction report (APK reverse engineering + ENR API discovery, methodology & validation). | PDF + Word |
+| `docs/` | Full data-extraction report (PDF + Word) and the B2G product proposal for ENR (accident prevention & emergency response). | PDF + Word |
 
 ### Timetable time semantics (validated against the live API)
 For each train: `dep_min = Σ(leg times t) + Σ(dwells st)` measured from `origin_time`;
